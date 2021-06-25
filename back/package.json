@@ -2,7 +2,7 @@
   "name": "ROCKET.Q",
   "version": "1.0.0",
   "description": "<h1 align=\"center\">   <img alt=\"Rocket.Q\" title=\"Rocket.Q\" src=\".github/rocketq.png\" width=\"220px\" /> </h1>",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon node src/server.js"
   },

@@ -1,5 +1,5 @@
 const express = require('express')
-const route   = require('./route')
+const route   = require('./router')
 const path    = require('path')
 require('dotenv/config')
 
