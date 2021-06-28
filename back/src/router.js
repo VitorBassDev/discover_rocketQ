@@ -7,7 +7,6 @@ const route = express.Router()
 
 route.get('/', (req, res) => res.render("index"))
 route.get('/create-pass', (req,res) => res.render("create-pass"))
-route.get('/room/:room', (req, res) => res.render("room"))
 
 route.post('/create-room', RoomController.create)
 route.get('/room/:room', RoomController.open)
